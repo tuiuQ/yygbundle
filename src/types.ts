@@ -1,4 +1,4 @@
-import CryptoJS from "crypto-js";
+import CryptoJS from "https://esm.sh/crypto-js@4.2.0";
 
 export type AESDecryptionVersion = "default" | "2.0.3" | "3.0.0";
 export interface AESDecryptionKey {

@@ -1,6 +1,6 @@
 import { aesDecryptionKeys } from "./keys";
 import { ECharType, type AESDecryptionVersion } from "./types";
-import CryptoJS from "crypto-js";
+import CryptoJS from "https://esm.sh/crypto-js@4.2.0";
 
 export class CryptoUtil {
   static _version: AESDecryptionVersion = "default";
