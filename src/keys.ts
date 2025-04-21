@@ -1,5 +1,5 @@
 import CryptoJS from "https://esm.sh/crypto-js@4.2.0"
-import type { AESDecryptionKeys } from "./types";
+import type { AESDecryptionKeys } from "./types.ts";
 
 export const aesDecryptionKeys: AESDecryptionKeys = {
   default: {

@@ -1,5 +1,5 @@
-import { aesDecryptionKeys } from "./keys";
-import { ECharType, type AESDecryptionVersion } from "./types";
+import { aesDecryptionKeys } from "./keys.ts";
+import { ECharType, type AESDecryptionVersion } from "./types.ts";
 import CryptoJS from "https://esm.sh/crypto-js@4.2.0";
 
 export class CryptoUtil {
